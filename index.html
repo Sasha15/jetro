@@ -10,12 +10,14 @@
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/responsive.css"/>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	<link rel="stylesheet" href="outdatedbrowser/outdatedbrowser.min.css">
 </head>
 <body>
 
@@ -106,23 +108,23 @@
 		</div>
 
 		<div class="row jet-images">
-			<div class=" col-sm-4 col-md-2">
-				<a href="#"><img src="img/img1.jpg" alt=""/></a>
+			<div class=" col-xs-2">
+				<img class="slide-one" src="img/img1.jpg" alt=""/>
 			</div>
-			<div class=" col-sm-4 col-md-2">
-				<a href="#"><img src="img/img2.jpg" alt=""/></a>
+			<div class=" col-xs-2">
+				<img class="slide-two" src="img/img2.jpg" alt=""/>
 			</div>
-			<div class=" col-sm-4 col-md-2">
-				<a href="#"><img src="img/img3.jpg" alt=""/></a>
+			<div class=" col-xs-2">
+				<img class="slide-three" src="img/img3.jpg" alt=""/>
 			</div>
-			<div class=" col-sm-4 col-md-2">
-				<a href="#"><img src="img/img4.jpg" alt=""/></a>
+			<div class=" col-xs-2">
+				<img class="slide-four"  src="img/img4.jpg" alt=""/>
 			</div>
-			<div class=" col-sm-4 col-md-2">
-				<a href="#"><img src="img/img5.jpg" alt=""/></a>
+			<div class=" col-xs-2">
+				<img class="slide-five" src="img/img5.jpg" alt=""/>
 			</div>
-			<div class=" col-sm-4 col-md-2">
-				<a href="#"><img src="img/img6.jpg" alt=""/></a>
+			<div class=" col-xs-2">
+				<img class="slide-six" src="img/img6.jpg" alt=""/>
 			</div>
 		</div>
 	</div>
@@ -133,30 +135,48 @@
 		<div class="row">
 			<div class="col-sm-4 col-md-4">
 				<div class="jet-info-header">
-					<img src="img/icon1.png" alt=""/>
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+	 viewBox="0 0 46 46" enable-background="new 0 0 46 46" xml:space="preserve">
+<path id="path-1" fill="#E8663C" d="M46,25.9V20l-4.9-0.4c-0.2-1-0.4-1.9-0.8-2.8l4.1-2.8l-2.9-5.1L37,11.1
+	c-0.6-0.7-1.3-1.4-2.1-2.1L37,4.5l-5.1-2.9l-2.8,4.1c-0.9-0.3-1.9-0.6-2.8-0.8L25.9,0H20l-0.4,4.9c-1,0.2-1.9,0.4-2.8,0.8L14,1.6
+	L8.9,4.5L11.1,9c-0.7,0.6-1.4,1.3-2.1,2.1L4.5,8.9L1.6,14l4.1,2.8c-0.3,0.9-0.6,1.9-0.8,2.8L0,20l0,5.9l4.9,0.4
+	c0.2,1,0.4,1.9,0.8,2.8l-4.1,2.8L4.5,37L9,34.9c0.6,0.7,1.3,1.4,2.1,2.1l-2.1,4.5l5.1,2.9l2.8-4.1c0.9,0.3,1.9,0.6,2.8,0.8L20,46
+	h5.9l0.4-4.9c1-0.2,1.9-0.4,2.8-0.8l2.8,4.1l5.1-2.9L34.9,37c0.7-0.6,1.4-1.3,2.1-2.1l4.5,2.1l2.9-5.1l-4.1-2.8
+	c0.3-0.9,0.6-1.9,0.8-2.8L46,25.9z M23,34.5c-6.4,0-11.5-5.1-11.5-11.5c0-6.4,5.1-11.5,11.5-11.5c6.4,0,11.5,5.1,11.5,11.5
+	C34.5,29.3,29.3,34.5,23,34.5z"/>
+</svg>
 					<h2><a href="#">Check  out  my  latest
 						portfolio  items</a></h2>
 				</div>
 				<p>Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
-				<button type="button" class="btn">More</button>
+				<a href="#" class="btn">More</a>
 			</div>
 			<div class="col-sm-4 col-md-4">
 				<div class="jet-info-header">
-					<img src="img/icon2.png" alt=""/>
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+						 viewBox="0 0 49 40">
+						<path id="path-1" fill="#E8663C" d="M48.2,8.4l-7.7-7.7c-0.9-0.9-2.4-0.9-3.3,0L19,18.8l-7.4-7.4c-0.9-0.9-2.4-0.9-3.3,0l-7.7,7.7
+	c-0.9,0.9-0.9,2.4,0,3.3l8.7,8.7c0.1,0.1,0.2,0.2,0.3,0.3l7.7,7.7c0.4,0.4,1,0.7,1.6,0.7c0.6,0,1.2-0.2,1.6-0.7l27.5-27.5
+	c0.4-0.4,0.7-1,0.7-1.6S48.6,8.8,48.2,8.4z"/>
+					</svg>
 					<h2><a href="#">Offer Top Notch Quality
 						Work & Services</a></h2>
 				</div>
 				<p>Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
-				<button type="button" class="btn">More</button>
+				<a href="#" class="btn">More</a>
 			</div>
 			<div class="col-sm-4 col-md-4">
 				<div class="jet-info-header">
-					<img src="img/icon3.png" alt=""/>
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+	 viewBox="0 0 42 40" enable-background="new 0 0 42 40" xml:space="preserve">
+<path id="path-1" fill="#E8663C" d="M27.8,22.1c3-2.2,5-5.8,5-9.8C32.8,5.5,27.3,0,20.5,0C13.8,0,8.3,5.5,8.3,12.2c0,4,2,7.6,5,9.8
+	C5.5,24.8,0,31.8,0,40h41.1C41.1,31.8,35.6,24.8,27.8,22.1z"/>
+</svg>
 					<h2><a href="#">Follow  Me  on  Twitter,
 						Facebook  &  Pinterest</a></h2>
 				</div>
 				<p>Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
-				<button type="button" class="btn">More</button>
+				<a href="#" class="btn">More</a>
 			</div>
 		</div>
 	</div>
@@ -205,7 +225,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-4">
-				<h2>About Jetro</h2>
+				<a href="#"><h2>About Jetro</h2></a>
 
 				<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at
 					tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus
@@ -214,7 +234,7 @@
 				<p>Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.</p>
 			</div>
 			<div class="col-sm-12 col-md-4">
-				<h2>Twitter Widget</h2>
+				<a href="#"><h2>Twitter Widget</h2></a>
 
 				<p><span><a href="#">@pixelmater</a></span> What an awesome design with great functionality :)<br/>
 				<span class="jet-twitter-time">about 1 hour ago</span></p>
@@ -225,7 +245,7 @@
 				<p>Follow <span><a href="#">@bestpsdfreebies</a></span></p>
 			</div>
 			<div class="col-sm-12 col-md-4">
-				<h2>Contact Us</h2>
+				<a href="#"><h2>Contact Us</h2></a>
 
 				<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri.</p>
 
@@ -249,5 +269,45 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script src="outdatedbrowser/outdatedbrowser.min.js"></script>
+<script>
+
+	//plugin function, place inside DOM ready function
+	outdatedBrowser({
+		bgColor: '#f25648',
+		color: '#ffffff',
+		lowerThan: 'transform',
+		languagePath: 'outdatedbrowser/lang/en.html'
+	})
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// Осуществляет переход на 0 слайд карусели
+		$(".slide-one").click(function(){
+			$("#carousel-example-generic").carousel(0);
+		});
+		// Осуществляет переход на 1 слайд карусели
+		$(".slide-two").click(function(){
+			$("#carousel-example-generic").carousel(1);
+		});
+		// Осуществляет переход на 2 слайд карусели
+		$(".slide-three").click(function(){
+			$("#carousel-example-generic").carousel(2);
+		});
+		// Осуществляет переход на 2 слайд карусели
+		$(".slide-four").click(function(){
+			$("#carousel-example-generic").carousel(3);
+		});
+		// Осуществляет переход на 2 слайд карусели
+		$(".slide-five").click(function(){
+			$("#carousel-example-generic").carousel(4);
+		});
+		// Осуществляет переход на 2 слайд карусели
+		$(".slide-six").click(function(){
+			$("#carousel-example-generic").carousel(5);
+		});
+	});
+</script>
 </body>
 </html>

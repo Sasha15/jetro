@@ -12,6 +12,11 @@
 	margin-bottom: 0;
 	z-index: 1;
 }
+
+.nav>li>a:hover,
+.nav>li>a:focus{
+	background: #fff;
+}
 .container{
 	background: #fff;
 	position: relative;
@@ -32,7 +37,7 @@
 	color: #e8603c;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-left: 10px;
+	margin-left:0;
 }
 
 .navbar .navbar-brand .jet-light{
@@ -49,15 +54,15 @@
 	background-color:#e8603c;
 }
 .navbar .navbar-nav> li> a{
-	line-height: 78px;
 	padding-top: 0;
 	padding-bottom: 0;
 	color: #b9b9b9;
-	font-size: 16px;
+	font: 16px/78px "Bebas",Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 400;
 	padding-right: 0;
 	padding-left: 25px;
+	word-spacing: 3px;
 }
 .navbar .navbar-nav> li> a:hover{
 	background: none;
@@ -70,6 +75,19 @@ img{
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img{
 	width: 100%;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right{
+	font-size: 50px;
+	text-shadow: none;
+	top:40%;
+}
+.carousel-control .glyphicon-chevron-right{
+	right:50%;
+
+}
+.carousel-control .glyphicon-chevron-left{
+	left: 35%;
 }
 .carousel-caption{
 	color: #fff;
@@ -99,7 +117,9 @@ img{
 .jet-images{
 	margin-top:17px;
 }
-
+.jet-images img{
+	cursor: pointer;
+}
 
 
 .jet-info{
@@ -108,13 +128,11 @@ img{
 .jet-info .container{
 	margin-top: 40px;
 }
-
-.jet-info-header img{
+.jet-info-header svg{
 	float: left;
-	width: 46px;
+	width:46px;
 	height: 46px;
 	margin-bottom: 37px;
-
 }
 .jet-info-header h2{
 	font: 18px "Bebas", Arial, Helvetica, sans-serif;;
@@ -168,6 +186,9 @@ img{
 	border-top: none;
 	padding: 13px 0 10px 14px;
 }
+.jet-works-caption h3:hover a{
+	color:#ff6633;
+}
 .jet-works-caption h3{
 	font: 16px/1.125 "Bebas", Arial, Helvetica, sans-serif;
 	color: #b9b9b9;
@@ -175,6 +196,7 @@ img{
 .jet-works-caption h3 a{
 	color: #b9b9b9;
 	text-decoration: none;
+	transition: color .3s;
 }
 .jet-works-caption p{
 	text-transform: uppercase;
@@ -201,6 +223,15 @@ img{
 .jet-footer .container h2{
 	font: 20px "Bebas", Arial, Helvetica, sans-serif;
 	margin-bottom: 25px;
+	color: #fff;
+
+
+}
+.jet-footer .container a:hover{
+	text-decoration: none;
+}
+.jet-footer .container a:visited{
+	text-decoration: none;
 }
 .jet-footer .container p{
 	font: 12px Helvetica, sans-serif;
@@ -226,3 +257,4 @@ img{
 	display: inline-block;
 	padding-top: 10px;
 }
+
