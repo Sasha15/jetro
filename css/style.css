@@ -66,11 +66,14 @@
 }
 .navbar .navbar-nav> li> a:hover{
 	background: none;
-	color: #e8603c;
+	color:#e8603c;
 }
-img{
-	width: 100%;
+.navbar .navbar-nav> li> a:hover span{
+	color: #f2ae9c;
 }
+.jet-images img{
+	 width: 100%;
+ }
 
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img{
@@ -111,7 +114,7 @@ img{
 .carousel-caption p{
 	padding: 0;
 	margin: 0;
-	font:12px Helvetica, Arial,  sans-serif;;
+	font:12px Helvetica, Arial,  sans-serif;
 }
 
 .jet-images{
@@ -134,8 +137,11 @@ img{
 	height: 46px;
 	margin-bottom: 37px;
 }
+/*.jet-info-header:hover svg{
+	fill:#f2ae9c;
+}*/
 .jet-info-header h2{
-	font: 18px "Bebas", Arial, Helvetica, sans-serif;;
+	font: 18px "Bebas", Arial, Helvetica, sans-serif;
 	line-height: 1.333;
 
 	margin-left: 74px;
@@ -203,9 +209,9 @@ img{
 	font: 11px/1.63 "Bebas", Arial, Helvetica, sans-serif;
 	color: #e8663c;
 }
-
-
-
+.jet-works img{
+	width:100%;
+}
 .jet-footer{
 	background: #f2ae9c;
 }
@@ -224,8 +230,6 @@ img{
 	font: 20px "Bebas", Arial, Helvetica, sans-serif;
 	margin-bottom: 25px;
 	color: #fff;
-
-
 }
 .jet-footer .container a:hover{
 	text-decoration: none;
@@ -258,3 +262,120 @@ img{
 	padding-top: 10px;
 }
 
+
+
+
+
+
+/*ABOUT US*/
+.jet-title{
+	height: 60px;
+	margin-bottom: 30px;
+
+}
+.jet-title h1{
+	background-color: #e8663c;
+	color: #fff;
+	font: 24px "Bebas", Arial, Helvetica ,sans-serif;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 0;
+	word-spacing: 3px;
+	padding-left: 18px;
+	}
+
+/*Main Section of About US*/
+.jet-about p {
+	font: 12px/1.5 Helvetica, Arial, sans-serif;
+	color: #333;
+	margin-bottom: 20px;
+}
+.jet-about .col-md-9{
+	padding-right: 60px;
+}
+.jet-about .col-md-9 img{
+	float:left;
+	padding: 2px;
+	border: 1px solid #ccc;
+	margin-right:22px;
+}
+.jet-about blockquote{
+	border-left: none;
+	margin-left: 61px;
+}
+.jet-about blockquote p{
+	font: 12px/1.5 Helvetica, Arial, sans-serif;
+	font-style: italic;
+	color: #717171;
+	border-left: 8px solid #e8663c;
+	padding-left: 19px;
+}
+
+.jet-first-letter:first-letter{
+	font: 36px Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	float: left;
+	color:#ff6633;
+	padding: 0 5px 0 0;
+	line-height: 1;
+}
+.alert{
+	font:14px Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-style: italic;
+
+}
+.alert-success{
+	border:1px solid #98c601;
+	color: #98c601;
+	background-color: #effeb9;
+
+}
+.alert-danger{
+	border:1px solid #eb5439;
+	color:#eb5439;
+	background-color: #fbcbc1;
+}
+.alert-warning{
+	border:1px solid #fab418;
+	color:#fab418;
+	background-color: #ffe9ad;
+}
+.alert-info{
+	border:1px solid #4d8fcb;
+	color: #4d8fcb;
+	background-color: #d1e4f3;
+}
+
+/*Left aside of About US*/
+.jet-side-section{
+	padding-bottom: 35px;
+}
+.jet-side-section .jet-side-categories{
+	font:14px "Bebas", Arial, Helvetica, sans-serif;
+	color: #e8603c;
+	background: url('../img/line-bg.png')repeat-x 50% 50%;
+	height: 15px;
+	margin-bottom: 15px;
+	line-height: 14px;
+}
+.jet-side-categories span {
+	padding: 0 18px 0 0;
+	background: #fff;
+}
+.jet-side-section p{
+	font:12px/1.3   Helvetica, Arial, sans-serif;
+}
+.jet-side-section a{
+	text-decoration: none;
+	color: #464646;
+}
+.jet-side-section li:hover a{
+	color:#e8603c;
+}
+.jet-side-section img{
+	width:100%;
+}
+.jet-about .row + .row{
+	margin-top:5px;
+}
