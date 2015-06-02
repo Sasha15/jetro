@@ -137,9 +137,12 @@
 	height: 46px;
 	margin-bottom: 37px;
 }
-/*.jet-info-header:hover svg{
-	fill:#f2ae9c;
-}*/
+.jet-info-header img{
+	float: left;
+	width:46px;
+	height: 46px;
+	margin-bottom: 37px;
+}
 .jet-info-header h2{
 	font: 18px "Bebas", Arial, Helvetica, sans-serif;
 	line-height: 1.333;
