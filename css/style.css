@@ -186,6 +186,7 @@
 .jet-works h2 span{
 	background-color: #fff;
 	padding-right: 20px;
+	word-spacing: 5px;
 }
 .jet-works-caption{
 	border:1px solid #dbdbdb;
@@ -673,3 +674,16 @@ textarea:-ms-input-placeholder {
 	color: #fff;
 }
 
+
+
+/*PORTFOLIO ITEM*/
+.jet-portfolio-post img{
+	width: 100%;
+	margin-bottom: 25px;
+}
+.jet-portfolio-post p{
+	font: 12px/1.5 Helvetica, Arial, sans-serif;
+}
+.jet-portfolio-post p+p{
+	margin-bottom: 50px;
+}
