@@ -162,7 +162,7 @@ a.carousel-control.left{
 .jet-info-header h2{
 	font: 18px "Bebas", Arial, Helvetica, sans-serif;
 	line-height: 1.333;
-
+	margin-top: 0;
 	margin-left: 74px;
 	text-transform: uppercase;
 	font-weight: 200;
