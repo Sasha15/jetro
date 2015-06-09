@@ -66,14 +66,14 @@
 	margin-bottom: -4px;
 }
 .navbar .navbar-nav> li:nth-child(2)> a{
-	padding-left: 30px;
+	padding-left: 27px;
 
 }
 .navbar .navbar-nav> li:nth-child(3)> a{
 	padding-right: 5px;
 }
 .navbar .navbar-nav> li:first-child a{
-	padding-left: 30px;
+	padding-left: 33px;
 }
 .navbar .navbar-nav> li> a:hover{
 	background: none;
@@ -110,10 +110,10 @@
 	max-width: 430px;
 	left: 4%;
 	right: 52%;
-	bottom: 35px;
+	bottom: 27px;
 	padding-left: 19px;
-	padding-top:21px;
-	padding-bottom: 15px;
+	padding-top:22px;
+	padding-bottom: 22px;
 	text-align: left;
 	text-shadow: none;
 }
