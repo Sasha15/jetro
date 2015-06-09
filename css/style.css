@@ -217,7 +217,7 @@ a.carousel-control.left{
 .jet-works-caption{
 	border:1px solid #dbdbdb;
 	border-top: none;
-	padding: 10px 0 3px 14px;
+	padding: 10px 0 0 14px;
 }
 .jet-works-caption h3:hover a{
 	color:#ff6633;
@@ -250,7 +250,7 @@ a.carousel-control.left{
 	border:10px solid #fff;
 	border-top:none;
 	border-bottom: none;
-	padding:37px 10px 30px 35px;
+	padding:33px 10px 30px 35px;
 	color:#fff;
 }
 .jet-footer [class*="col-"] {
@@ -292,7 +292,9 @@ a.carousel-control.left{
 	display: inline-block;
 	padding-top: 10px;
 }
-
+.jet-footer .col-md-4.col-sm-12:nth-child(2){
+	padding-left: 28px;
+}
 
 
 

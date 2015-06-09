@@ -48,6 +48,11 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 @media (min-width: 960px) {
 
 }
+@media (max-width: 991px){
+	.jet-footer .col-md-4.col-sm-12:nth-child(2){
+		padding-left: 10px;
+	}
+}
 @media (max-width: 959px) {
 
 }
