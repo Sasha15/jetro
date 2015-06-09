@@ -54,7 +54,7 @@
 	background-color:#e8603c;
 }
 .navbar .navbar-nav> li> a{
-	padding-top: 0;
+	padding-top: 4px;
 	padding-bottom: 0;
 	color: #b9b9b9;
 	font: 16px/78px "Bebas",Arial, Helvetica, sans-serif;
@@ -63,6 +63,10 @@
 	padding-right: 0;
 	padding-left: 25px;
 	word-spacing: 3px;
+	margin-bottom: -4px;
+}
+.navbar .navbar-nav> li:first-child a{
+	padding-right:8px;
 }
 .navbar .navbar-nav> li> a:hover{
 	background: none;
