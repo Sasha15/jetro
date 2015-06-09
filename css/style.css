@@ -96,16 +96,16 @@ a.carousel-control.left{
 }
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right{
-	font-size: 50px;
+	font-size: 57px;
 	text-shadow: none;
 	top:40%;
 }
 .carousel-control .glyphicon-chevron-right{
-	right:50%;
+	right:41%;
 
 }
 .carousel-control .glyphicon-chevron-left{
-	left: 35%;
+	left: 25%;
 }
 .carousel-caption{
 	color: #fff;
