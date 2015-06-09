@@ -152,14 +152,14 @@ a.carousel-control.left{
 	width:46px;
 	height: 46px;
 	margin-bottom: 32px;
-	margin-left: -3px;
+	margin-left: 1px;
 }
 .jet-info-header img{
 	float: left;
 	width:46px;
 	height: 46px;
 	margin-bottom: 32px;
-	margin-left: -3px;
+	margin-left: 1px;
 }
 .jet-info-header h2{
 	font: 18px "Bebas", Arial, Helvetica, sans-serif;
