@@ -147,6 +147,9 @@ a.carousel-control.left{
 .jet-info .container{
 	margin-top: 40px;
 }
+.jet-info .container .col-md-4{
+	padding-right: 25px;
+}
 .jet-info-header svg{
 	float: left;
 	width:46px;
