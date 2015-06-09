@@ -217,7 +217,7 @@ a.carousel-control.left{
 .jet-works-caption{
 	border:1px solid #dbdbdb;
 	border-top: none;
-	padding: 10px 0 10px 14px;
+	padding: 10px 0 3px 14px;
 }
 .jet-works-caption h3:hover a{
 	color:#ff6633;
@@ -260,6 +260,7 @@ a.carousel-control.left{
 	font: 20px "Bebas", Arial, Helvetica, sans-serif;
 	margin-bottom: 25px;
 	color: #fff;
+	margin-top: 0;
 }
 .jet-footer .container a:hover{
 	text-decoration: none;
