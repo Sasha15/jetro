@@ -254,7 +254,7 @@ a.carousel-control.left{
 	color:#fff;
 }
 .jet-footer [class*="col-"] {
-	padding-right: 60px;
+	padding-right: 33px;
 }
 .jet-footer .container h2{
 	font: 20px "Bebas", Arial, Helvetica, sans-serif;
@@ -270,6 +270,7 @@ a.carousel-control.left{
 }
 .jet-footer .container p{
 	font: 12px Helvetica, sans-serif;
+	margin-bottom: 7px;
 }
 .jet-social-networks a{
 	display: inline-block;
