@@ -307,7 +307,7 @@ a.carousel-control.left{
 /*ABOUT US*/
 .jet-title{
 	height: 60px;
-	margin-bottom: 30px;
+	margin-bottom: 27px;
 
 }
 .jet-title h1{
@@ -323,22 +323,36 @@ a.carousel-control.left{
 
 /*Main Section of About US*/
 .jet-about p {
-	font: 12px/1.5 Helvetica, Arial, sans-serif;
+	font: 12px/1.4 Helvetica, Arial, sans-serif;
 	color: #333;
 	margin-bottom: 20px;
 }
+.jet-about p.clearfix{
+	font: 12px/1.5 Helvetica, Arial, sans-serif;
+}
+.jet-about p:nth-child(4){
+	 font: 12px/1.5 Helvetica, Arial, sans-serif;
+ }
+.jet-about p:nth-child(5){
+	font: 12px/1.45 Helvetica, Arial, sans-serif;
+}
+.jet-about p:nth-child(6){
+	font: 12px/1.5 Helvetica, Arial, sans-serif;
+}
 .jet-about .col-md-9{
-	padding-right: 60px;
+	padding-right: 40px;
 }
 .jet-about .col-md-9 img{
 	float:left;
 	padding: 2px;
 	border: 1px solid #ccc;
-	margin-right:22px;
+	margin-right:24px;
+	margin-top: 3px;
 }
 .jet-about blockquote{
 	border-left: none;
-	margin-left: 61px;
+	margin: 0 0 15px 31px;
+	padding: 7px 0 10px 20px;
 }
 .jet-about blockquote p{
 	font: 12px/1.5 Helvetica, Arial, sans-serif;
@@ -356,17 +370,40 @@ a.carousel-control.left{
 	padding: 0 5px 0 0;
 	line-height: 1;
 }
+.jet-about .container .col-md-9 .row .col-md-6 p{
+	font: 12px/1.5 Helvetica, Arial, sans-serif;
+	margin-bottom: 24px;
+}
+.jet-about .container .col-md-9 .row .col-md-6:last-child{
+	padding-left: 18px;
+}
+.jet-about .container .col-md-9 .row .col-md-4 p{
+	font: 12px/1.55 Helvetica, Arial, sans-serif;
+	margin-bottom: 33px;
+}
+.jet-about .container .col-md-9 .row .col-md-4:first-child{
+	padding-right: 0;
+	padding-left: 11px;
+}
+.jet-about .container .col-md-9 .row .col-md-4:nth-child(2){
+	padding-right: 0;
+	padding-left: 11px;
+}
+.jet-about .container .col-md-9 .row .col-md-4:last-child{
+	padding-left: 11px;
+	padding-right: 0;
+}
 .alert{
 	font:14px Arial, Helvetica, sans-serif;
 	text-align: center;
 	font-style: italic;
-
+	padding: 22px 42px 22px 18px;
+	margin-bottom: 18px;
 }
 .alert-success{
 	border:1px solid #98c601;
 	color: #98c601;
 	background-color: #effeb9;
-
 }
 .alert-danger{
 	border:1px solid #eb5439;
@@ -382,18 +419,19 @@ a.carousel-control.left{
 	border:1px solid #4d8fcb;
 	color: #4d8fcb;
 	background-color: #d1e4f3;
+	margin-bottom: 40px;
 }
 
 /*Left aside of About US*/
 .jet-side-section{
-	padding-bottom: 35px;
+	padding-bottom: 10px;
 }
 .jet-side-section .jet-side-categories{
 	font:14px "Bebas", Arial, Helvetica, sans-serif;
 	color: #e8603c;
 	background: url('../img/line-bg.png')repeat-x 50% 50%;
 	height: 15px;
-	margin-bottom: 15px;
+	margin-bottom: 17px;
 	line-height: 14px;
 }
 .jet-side-categories span {
@@ -407,6 +445,9 @@ a.carousel-control.left{
 	text-decoration: none;
 	color: #464646;
 }
+.jet-side-section li{
+	font:12px/1.3   Helvetica, Arial, sans-serif;
+}
 .jet-side-section li:hover a{
 	color:#e8603c;
 }
@@ -416,9 +457,21 @@ a.carousel-control.left{
 .jet-side-section [class*="col-"] {
 	margin-bottom: 5px;
 }
-
-
-
+.jet-side-section h4{
+	margin-top: 3px;
+	word-spacing: 3px;
+}
+.list-unstyled{
+	margin-bottom: 20px;
+}
+.jet-side-section .row .col-md-3{
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.jet-side-section .row{
+	padding-left: 10px;
+	padding-right: 12px;
+}
 
 /*PORTFOLIO*/
 .jet-portfolio{
