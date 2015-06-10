@@ -100,12 +100,22 @@ a.carousel-control.left{
 	text-shadow: none;
 	top:42%;
 }
+.jet-blog .carousel-control .glyphicon-chevron-left,
+.jet-blog .carousel-control .glyphicon-chevron-right{
+	top:44.5%;
+}
 .carousel-control .glyphicon-chevron-right{
 	right:41%;
 
 }
+.jet-blog .carousel-control .glyphicon-chevron-right{
+	right:51%;
+}
 .carousel-control .glyphicon-chevron-left{
 	left: 25%;
+}
+.jet-blog .carousel-control .glyphicon-chevron-left{
+	left: 26%;
 }
 .carousel-caption{
 	color: #fff;
@@ -426,6 +436,12 @@ a.carousel-control.left{
 .jet-side-section{
 	padding-bottom: 10px;
 }
+.jet-blog .jet-side-section{
+	 padding-bottom: 20px;
+ }
+.jet-blog .jet-side-section:nth-child(2){
+	padding-bottom: 10px;
+}
 .jet-side-section .jet-side-categories{
 	font:14px "Bebas", Arial, Helvetica, sans-serif;
 	color: #e8603c;
@@ -616,6 +632,9 @@ textarea:-ms-input-placeholder {
 
 
 /*BLOG*/
+.jet-blog .col-md-9{
+	padding-right: 40px;
+}
 .jet-blog-items {
 	position: relative;
 	margin-bottom: 70px;
@@ -625,13 +644,16 @@ textarea:-ms-input-placeholder {
 }
 .jet-blog-items p {
 	font-size: 12px;
-	/*font-family: "Bebas", Arial, Helvetica, sans-serif;*/
-	/*text-transform: lowercase;*/
+	line-height: 1.49;
+	margin-bottom: 20px;
+}
+.jet-blog-items p:last-child{
+	margin-bottom: 50px;
 }
 .jet-blog-items h4 {
-	font: 14px "Bebas", Arial, Helvetica, sans-serif;
+	font: 12px "Bebas", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
-	margin: 0 0 10px;
+	margin: 0 0 6px;
 	color:#e8603c;
 	font-weight: 500;
 }
@@ -641,9 +663,11 @@ textarea:-ms-input-placeholder {
 	text-transform: uppercase;
 	color:#e8603c;
 	margin-top: 0;
+	word-spacing: 3px;
 }
 
 .jet-blog-items.jet-icon-link a {
+	font: 12px Helvetica, Arial, sans-serif;
 	color: #bebebe;
 	margin-bottom: 20px;
 	display: block;
@@ -657,7 +681,7 @@ textarea:-ms-input-placeholder {
 }
 .jet-blog-items .jet-date-emphasise {
 	color: #bebebe;
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 }
 .jet-blog-items.jet-icon-quote {
 	padding-bottom: 54px;
@@ -676,7 +700,22 @@ textarea:-ms-input-placeholder {
 .jet-icon-text img{
 	width:100%;
 }
-
+.jet-blog .container .col-md-9 .col-xs-9{
+	padding-left: 43px;
+	padding-right: 0;
+}
+.jet-blog .container .col-md-9 .col-xs-9 h2{
+	margin-bottom: 20px;
+}
+.jet-blog-items.jet-icon-video{
+	margin-bottom: 60px;
+}
+.jet-blog-items.jet-icon-quote{
+	margin-bottom:59px;
+}
+.jet-blog-items.jet-icon-link{
+	margin-bottom: 57px;
+}
 
 /*BLOG ICONS*/
 
@@ -718,7 +757,7 @@ textarea:-ms-input-placeholder {
 
 .jet-icon-quote blockquote {
 	font-style: italic;
-	padding: 20px 30px 18px 75px;
+	padding: 22px 0 20px 75px;
 	margin-left: 0;
 	margin-bottom: 0;
 	border-left: none;
@@ -730,16 +769,18 @@ textarea:-ms-input-placeholder {
 	content: '';
 	position: absolute;
 	background-image: url("../img/blog-icon-quote-red.png");
-	left: 0;
+	left: 1%;
 	top: 0;
 	width: 76px;
 	height: 76px;
 	background-position: 50% 40%;
 	background-repeat: no-repeat;
 }
+.jet-blog-items blockquote p:last-child{
+	margin-bottom: 0;
+}
 .pagination {
-	margin: 0;
-	margin-bottom: 30px;
+	margin: 0 0 42px 3px;
 }
 .pagination li a {
 	font: 14px/26px "Bebas", Arial, Helvetica, sans-serif;
@@ -762,7 +803,9 @@ textarea:-ms-input-placeholder {
 	background: #f3b29d;
 	color: #fff;
 }
-
+.jet-blog-items .jet-icon-link h2{
+	margin-bottom: 6px;
+}
 
 
 /*PORTFOLIO ITEM*/
