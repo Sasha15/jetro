@@ -855,11 +855,15 @@ textarea:-ms-input-placeholder {
 /*PORTFOLIO ITEM*/
 .jet-portfolio-post img{
 	width: 100%;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 .jet-portfolio-post p{
 	font: 12px/1.5 Helvetica, Arial, sans-serif;
+	margin-bottom: 17px;
 }
 .jet-portfolio-post p+p{
-	margin-bottom: 50px;
+	margin-bottom: 43px;
+}
+.jet-padding{
+	padding-bottom: 27px;
 }
