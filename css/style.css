@@ -438,9 +438,11 @@ a.carousel-control.left{
 .jet-side-section{
 	padding-bottom: 10px;
 }
+.jet-contact .jet-side-section,
 .jet-blog .jet-side-section{
 	 padding-bottom: 20px;
  }
+.jet-contact .jet-side-section:nth-child(2),
 .jet-blog .jet-side-section:nth-child(2){
 	padding-bottom: 10px;
 }
@@ -599,10 +601,15 @@ a.carousel-control.left{
 	font: 12px "Bebas", Arial, Helvetica, sans-serif;
 	border: 1px solid #e8603c;
 	color: #e8603c;
-	padding: 10px 13px;
+	padding: 3px 0 3px 10px;
 	margin-bottom: 10px;
 	line-height: 2.3;
-
+}
+textarea.jet-form-field{
+	padding-top: 5px;
+	padding-bottom: 9px;
+	padding-right: 0;
+	margin-bottom: 5px;
 }
 .jet-form input {
 	width: 100%;
@@ -645,17 +652,32 @@ textarea:-ms-input-placeholder {
 	border: 1px solid #e8603c;
 	transition: color .5s, background .5s;
 	margin-left: 10px;
+	color:#fff;
 }
 .jet-form .btn:hover {
 	color: #e8603c;
 	background: #fff;
 }
-
+.jet-contact .row .jet-margin .col-md-3{
+	padding-right: 0;
+}
+.jet-contact .row .row .col-md-3 p{
+	font: 12px Helvetica, Arial, sans-serif;
+}
+.jet-margin{
+	margin-top: -2px;
+}
+.jet-contact .row .row .col-md-7{
+	padding-left: 37px;
+}
 
 
 /*BLOG*/
 .jet-blog .col-md-9{
 	padding-right: 40px;
+}
+.jet-contact .col-md-9{
+	padding-right: 35px;
 }
 .jet-blog-items {
 	position: relative;
