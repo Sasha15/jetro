@@ -318,7 +318,9 @@ a.carousel-control.left{
 .jet-title{
 	height: 60px;
 	margin-bottom: 27px;
-
+}
+.jet-title.jet-for-portfolio{
+	margin-bottom: 37px;
 }
 .jet-title h1{
 	background-color: #e8663c;
@@ -491,7 +493,7 @@ a.carousel-control.left{
 
 /*PORTFOLIO*/
 .jet-portfolio{
-	padding-bottom: 45px;
+	padding-bottom: 5px;
 }
 .jet-portfolio img{
 	width:100%;
@@ -505,14 +507,30 @@ a.carousel-control.left{
 	width: auto;
 	border:none;
 	margin-bottom: 35px;
+	padding: 4px 12px;
 }
 .btn-group>.btn.jet-button-active{
 	background-color: #e8663c;
 	color:#fff;
-}
+	margin-right: 7px;
 
+}
+.btn-group>.btn:nth-child(2){
+	padding: 4px 6px;
+
+}
+.btn-group>.btn:nth-child(3){
+	padding: 4px 5px;
+
+}
+.btn-group>.btn:nth-child(4){
+	padding: 4px 5px;
+}
+.btn-group>.btn:nth-child(5){
+	padding: 4px 6px;
+}
 .jet-portfolio [class*="col-"] {
-	margin-bottom: 41px;
+	margin-bottom: 40px;
 }
 .jet-portfolio-desc{
 	padding-top: 3px;
@@ -523,10 +541,14 @@ a.carousel-control.left{
 .jet-portfolio .jet-portfolio-desc h2{
 	font:16px/1.125 "Bebas", Arial, Helvetica, sans-serif;
 	color: #b9b9b9;
+	margin-top: 8px;
+	margin-bottom: 2px;
+	word-spacing: 2px;
 }
 .jet-portfolio .jet-portfolio-desc p{
 	font:11px/1.6 "Bebas", Arial, Helvetica, sans-serif;
 	color: #e8663c;
+	margin-bottom: 12px;
 }
 .jet-portfolio-item {
 	position: relative;
